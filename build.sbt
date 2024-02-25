@@ -66,7 +66,7 @@ lazy val zioCli = crossProject(JSPlatform, JVMPlatform, NativePlatform)
     )
   )
   .jvmSettings(
-    libraryDependencies += "dev.zio" %% "zio-process" % "0.7.1"
+    libraryDependencies += "dev.zio" %% "zio-process" % "0.7.2"
   )
   .nativeSettings(Test / fork := false)
   .nativeSettings(
